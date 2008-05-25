@@ -37,6 +37,7 @@ class CCAccount < OSX::NSObject
 			load_views(account['views'])
 			load_keychain
 
+      update
 		end
 		self
 	end
