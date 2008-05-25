@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0817C6270DADB578005DDBA3 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0817C6260DADB578005DDBA3 /* AppDelegate.rb */; };
+		0817C65A0DADBB82005DDBA3 /* CCAccount.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0817C6590DADBB82005DDBA3 /* CCAccount.rb */; };
+		0817C6610DADBCEF005DDBA3 /* CCAccountWindowController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0817C6600DADBCEF005DDBA3 /* CCAccountWindowController.rb */; };
+		0817C6BC0DADD86A005DDBA3 /* CCAccount.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0817C6BB0DADD86A005DDBA3 /* CCAccount.rb */; };
+		0817C6E60DADDB2F005DDBA3 /* EMKeychainItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C6E20DADDB2F005DDBA3 /* EMKeychainItem.h */; };
+		0817C6E70DADDB2F005DDBA3 /* EMKeychainProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C6E30DADDB2F005DDBA3 /* EMKeychainProxy.h */; };
+		0817C6E80DADDB2F005DDBA3 /* EMKeychainProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817C6E40DADDB2F005DDBA3 /* EMKeychainProxy.m */; };
+		0817C6E90DADDB2F005DDBA3 /* EMKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817C6E50DADDB2F005DDBA3 /* EMKeychainItem.m */; };
+		0817C6EE0DADDC56005DDBA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0817C6ED0DADDC56005DDBA3 /* Security.framework */; };
+		0817C6F20DADDC67005DDBA3 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0817C6F10DADDC67005DDBA3 /* Carbon.framework */; };
+		0817C7070DADE07E005DDBA3 /* CCTwitterController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0817C7060DADE07E005DDBA3 /* CCTwitterController.rb */; };
+		0817C7090DADE157005DDBA3 /* Twitter.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0817C7080DADE157005DDBA3 /* Twitter.nib */; };
+		0817C78A0DADEE94005DDBA3 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817C6090DADADFE005DDBA3 /* NSString+UUID.m */; };
+		0817C78B0DADEE95005DDBA3 /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C6080DADADFE005DDBA3 /* NSString+UUID.h */; };
+		0817C78C0DADEE95005DDBA3 /* MGTwitterXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817C5FD0DADADD7005DDBA3 /* MGTwitterXMLParser.m */; };
+		0817C78D0DADEE96005DDBA3 /* MGTwitterXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C5FC0DADADD7005DDBA3 /* MGTwitterXMLParser.h */; };
+		0817C78E0DADEE97005DDBA3 /* MGTwitterUsersParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817C6020DADADD7005DDBA3 /* MGTwitterUsersParser.m */; };
+		0817C78F0DADEE97005DDBA3 /* MGTwitterUsersParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C6010DADADD7005DDBA3 /* MGTwitterUsersParser.h */; };
+		0817C7900DADEE98005DDBA3 /* MGTwitterStatusesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817C6000DADADD7005DDBA3 /* MGTwitterStatusesParser.m */; };
+		0817C7910DADEE99005DDBA3 /* MGTwitterStatusesParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C5FF0DADADD7005DDBA3 /* MGTwitterStatusesParser.h */; };
+		0817C7920DADEE99005DDBA3 /* MGTwitterRequestTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C5FA0DADADD7005DDBA3 /* MGTwitterRequestTypes.h */; };
+		0817C7930DADEE9A005DDBA3 /* MGTwitterParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C5FE0DADADD7005DDBA3 /* MGTwitterParserDelegate.h */; };
+		0817C7940DADEE9A005DDBA3 /* MGTwitterMessagesParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817C6040DADADD7005DDBA3 /* MGTwitterMessagesParser.m */; };
+		0817C7950DADEE9B005DDBA3 /* MGTwitterMessagesParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C6030DADADD7005DDBA3 /* MGTwitterMessagesParser.h */; };
+		0817C7960DADEE9D005DDBA3 /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817C5F90DADADD7005DDBA3 /* MGTwitterHTTPURLConnection.m */; };
+		0817C7970DADEE9E005DDBA3 /* MGTwitterHTTPURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C5F80DADADD7005DDBA3 /* MGTwitterHTTPURLConnection.h */; };
+		0817C7980DADEE9E005DDBA3 /* MGTwitterEngineDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C5F70DADADD7005DDBA3 /* MGTwitterEngineDelegate.h */; };
+		0817C7990DADEE9F005DDBA3 /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0817C5F60DADADD7005DDBA3 /* MGTwitterEngine.m */; };
+		0817C79A0DADEEA1005DDBA3 /* MGTwitterEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0817C5F50DADADD7005DDBA3 /* MGTwitterEngine.h */; };
+		08B474F90DE048F0008246DF /* CCTwitterTab.rb in Resources */ = {isa = PBXBuildFile; fileRef = 08B474F80DE048F0008246DF /* CCTwitterTab.rb */; };
+		08C214CA0DE3A8E6004D199D /* StatusList.nib in Resources */ = {isa = PBXBuildFile; fileRef = 08C214C90DE3A8E6004D199D /* StatusList.nib */; };
+		08C214EC0DE3B658004D199D /* CCTab.rb in Resources */ = {isa = PBXBuildFile; fileRef = 08C214EB0DE3B658004D199D /* CCTab.rb */; };
+		08C2156C0DE3E011004D199D /* CCPlugin.rb in Resources */ = {isa = PBXBuildFile; fileRef = 08C2156B0DE3E011004D199D /* CCPlugin.rb */; };
+		08C525180DE551D700304E92 /* CCSimpleTabView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 08C525170DE551D700304E92 /* CCSimpleTabView.rb */; };
+		08C5255F0DE9380800304E92 /* Tab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C5255E0DE9380800304E92 /* Tab.xib */; };
+		4DA7E4910ACC9AEB00B17D13 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		4DA7E4920ACC9AEB00B17D13 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		4DA7E4930ACC9AEB00B17D13 /* MyDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */; };
+		4DA7E4940ACC9AEB00B17D13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		4DA7E4950ACC9AEB00B17D13 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8F5E29F03AEDEA503A81C6F /* rb_main.rb */; };
+		4DA7E4960ACC9AEB00B17D13 /* MyDocument.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8F5E2A103AEDEBE03A81C6F /* MyDocument.rb */; };
+		4DA7E4980ACC9AEB00B17D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		4DA7E49A0ACC9AEB00B17D13 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		4DA7E49B0ACC9AEB00B17D13 /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E29503AEDE5A03A81C6F /* RubyCocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0817C5F50DADADD7005DDBA3 /* MGTwitterEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngine.h; sourceTree = "<group>"; };
+		0817C5F60DADADD7005DDBA3 /* MGTwitterEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGTwitterEngine.m; sourceTree = "<group>"; };
+		0817C5F70DADADD7005DDBA3 /* MGTwitterEngineDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngineDelegate.h; sourceTree = "<group>"; };
+		0817C5F80DADADD7005DDBA3 /* MGTwitterHTTPURLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTwitterHTTPURLConnection.h; sourceTree = "<group>"; };
+		0817C5F90DADADD7005DDBA3 /* MGTwitterHTTPURLConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGTwitterHTTPURLConnection.m; sourceTree = "<group>"; };
+		0817C5FA0DADADD7005DDBA3 /* MGTwitterRequestTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTwitterRequestTypes.h; sourceTree = "<group>"; };
+		0817C5FC0DADADD7005DDBA3 /* MGTwitterXMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTwitterXMLParser.h; sourceTree = "<group>"; };
+		0817C5FD0DADADD7005DDBA3 /* MGTwitterXMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGTwitterXMLParser.m; sourceTree = "<group>"; };
+		0817C5FE0DADADD7005DDBA3 /* MGTwitterParserDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTwitterParserDelegate.h; sourceTree = "<group>"; };
+		0817C5FF0DADADD7005DDBA3 /* MGTwitterStatusesParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTwitterStatusesParser.h; sourceTree = "<group>"; };
+		0817C6000DADADD7005DDBA3 /* MGTwitterStatusesParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGTwitterStatusesParser.m; sourceTree = "<group>"; };
+		0817C6010DADADD7005DDBA3 /* MGTwitterUsersParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTwitterUsersParser.h; sourceTree = "<group>"; };
+		0817C6020DADADD7005DDBA3 /* MGTwitterUsersParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGTwitterUsersParser.m; sourceTree = "<group>"; };
+		0817C6030DADADD7005DDBA3 /* MGTwitterMessagesParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTwitterMessagesParser.h; sourceTree = "<group>"; };
+		0817C6040DADADD7005DDBA3 /* MGTwitterMessagesParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGTwitterMessagesParser.m; sourceTree = "<group>"; };
+		0817C6080DADADFE005DDBA3 /* NSString+UUID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		0817C6090DADADFE005DDBA3 /* NSString+UUID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		0817C6260DADB578005DDBA3 /* AppDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		0817C6590DADBB82005DDBA3 /* CCAccount.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CCAccount.rb; sourceTree = "<group>"; };
+		0817C6600DADBCEF005DDBA3 /* CCAccountWindowController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CCAccountWindowController.rb; sourceTree = "<group>"; };
+		0817C6BB0DADD86A005DDBA3 /* CCAccount.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CCAccount.rb; sourceTree = "<group>"; };
+		0817C6E20DADDB2F005DDBA3 /* EMKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainItem.h; sourceTree = "<group>"; };
+		0817C6E30DADDB2F005DDBA3 /* EMKeychainProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainProxy.h; sourceTree = "<group>"; };
+		0817C6E40DADDB2F005DDBA3 /* EMKeychainProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainProxy.m; sourceTree = "<group>"; };
+		0817C6E50DADDB2F005DDBA3 /* EMKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainItem.m; sourceTree = "<group>"; };
+		0817C6ED0DADDC56005DDBA3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		0817C6F10DADDC67005DDBA3 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		0817C7060DADE07E005DDBA3 /* CCTwitterController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CCTwitterController.rb; sourceTree = "<group>"; };
+		0817C7080DADE157005DDBA3 /* Twitter.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = Twitter.nib; sourceTree = "<group>"; };
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08B474F80DE048F0008246DF /* CCTwitterTab.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CCTwitterTab.rb; sourceTree = "<group>"; };
+		08C214C90DE3A8E6004D199D /* StatusList.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = StatusList.nib; sourceTree = "<group>"; };
+		08C214EB0DE3B658004D199D /* CCTab.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CCTab.rb; sourceTree = "<group>"; };
+		08C2156B0DE3E011004D199D /* CCPlugin.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CCPlugin.rb; sourceTree = "<group>"; };
+		08C525170DE551D700304E92 /* CCSimpleTabView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CCSimpleTabView.rb; sourceTree = "<group>"; };
+		08C5255E0DE9380800304E92 /* Tab.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tab.xib; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4B5FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MyDocument.nib; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4DA7E49F0ACC9AEB00B17D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA7E4A00ACC9AEB00B17D13 /* CheepCheep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheepCheep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F5E29503AEDE5A03A81C6F /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /System/Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
+		E8F5E29F03AEDEA503A81C6F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		E8F5E2A103AEDEBE03A81C6F /* MyDocument.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = MyDocument.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DA7E4990ACC9AEB00B17D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA7E49A0ACC9AEB00B17D13 /* Cocoa.framework in Frameworks */,
+				4DA7E49B0ACC9AEB00B17D13 /* RubyCocoa.framework in Frameworks */,
+				0817C6EE0DADDC56005DDBA3 /* Security.framework in Frameworks */,
+				0817C6F20DADDC67005DDBA3 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0817C5FB0DADADD7005DDBA3 /* Twitter XML Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				0817C5FC0DADADD7005DDBA3 /* MGTwitterXMLParser.h */,
+				0817C5FD0DADADD7005DDBA3 /* MGTwitterXMLParser.m */,
+				0817C5FE0DADADD7005DDBA3 /* MGTwitterParserDelegate.h */,
+				0817C5FF0DADADD7005DDBA3 /* MGTwitterStatusesParser.h */,
+				0817C6000DADADD7005DDBA3 /* MGTwitterStatusesParser.m */,
+				0817C6010DADADD7005DDBA3 /* MGTwitterUsersParser.h */,
+				0817C6020DADADD7005DDBA3 /* MGTwitterUsersParser.m */,
+				0817C6030DADADD7005DDBA3 /* MGTwitterMessagesParser.h */,
+				0817C6040DADADD7005DDBA3 /* MGTwitterMessagesParser.m */,
+			);
+			name = "Twitter XML Parsers";
+			sourceTree = "<group>";
+		};
+		0817C6070DADADFE005DDBA3 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0817C6080DADADFE005DDBA3 /* NSString+UUID.h */,
+				0817C6090DADADFE005DDBA3 /* NSString+UUID.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0817C6F10DADDC67005DDBA3 /* Carbon.framework */,
+				0817C6ED0DADDC56005DDBA3 /* Security.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				E8F5E29503AEDE5A03A81C6F /* RubyCocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7E4A00ACC9AEB00B17D13 /* CheepCheep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* CheepCheep */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+				4DA7E49F0ACC9AEB00B17D13 /* Info.plist */,
+				0817C6590DADBB82005DDBA3 /* CCAccount.rb */,
+			);
+			name = CheepCheep;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0817C6E20DADDB2F005DDBA3 /* EMKeychainItem.h */,
+				0817C6E30DADDB2F005DDBA3 /* EMKeychainProxy.h */,
+				0817C6E40DADDB2F005DDBA3 /* EMKeychainProxy.m */,
+				0817C6E50DADDB2F005DDBA3 /* EMKeychainItem.m */,
+				0817C6260DADB578005DDBA3 /* AppDelegate.rb */,
+				0817C6070DADADFE005DDBA3 /* Categories */,
+				0817C5FB0DADADD7005DDBA3 /* Twitter XML Parsers */,
+				0817C5F50DADADD7005DDBA3 /* MGTwitterEngine.h */,
+				0817C5F60DADADD7005DDBA3 /* MGTwitterEngine.m */,
+				0817C5F70DADADD7005DDBA3 /* MGTwitterEngineDelegate.h */,
+				0817C5F80DADADD7005DDBA3 /* MGTwitterHTTPURLConnection.h */,
+				0817C5F90DADADD7005DDBA3 /* MGTwitterHTTPURLConnection.m */,
+				0817C5FA0DADADD7005DDBA3 /* MGTwitterRequestTypes.h */,
+				E8F5E2A103AEDEBE03A81C6F /* MyDocument.rb */,
+				0817C6600DADBCEF005DDBA3 /* CCAccountWindowController.rb */,
+				0817C6BB0DADD86A005DDBA3 /* CCAccount.rb */,
+				0817C7060DADE07E005DDBA3 /* CCTwitterController.rb */,
+				08B474F80DE048F0008246DF /* CCTwitterTab.rb */,
+				08C214EB0DE3B658004D199D /* CCTab.rb */,
+				08C2156B0DE3E011004D199D /* CCPlugin.rb */,
+				08C525170DE551D700304E92 /* CCSimpleTabView.rb */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+				E8F5E29F03AEDEA503A81C6F /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				0817C7080DADE157005DDBA3 /* Twitter.nib */,
+				08C214C90DE3A8E6004D199D /* StatusList.nib */,
+				08C5255E0DE9380800304E92 /* Tab.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DA7E48F0ACC9AEB00B17D13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0817C6E60DADDB2F005DDBA3 /* EMKeychainItem.h in Headers */,
+				0817C6E70DADDB2F005DDBA3 /* EMKeychainProxy.h in Headers */,
+				0817C78B0DADEE95005DDBA3 /* NSString+UUID.h in Headers */,
+				0817C78D0DADEE96005DDBA3 /* MGTwitterXMLParser.h in Headers */,
+				0817C78F0DADEE97005DDBA3 /* MGTwitterUsersParser.h in Headers */,
+				0817C7910DADEE99005DDBA3 /* MGTwitterStatusesParser.h in Headers */,
+				0817C7920DADEE99005DDBA3 /* MGTwitterRequestTypes.h in Headers */,
+				0817C7930DADEE9A005DDBA3 /* MGTwitterParserDelegate.h in Headers */,
+				0817C7950DADEE9B005DDBA3 /* MGTwitterMessagesParser.h in Headers */,
+				0817C7970DADEE9E005DDBA3 /* MGTwitterHTTPURLConnection.h in Headers */,
+				0817C7980DADEE9E005DDBA3 /* MGTwitterEngineDelegate.h in Headers */,
+				0817C79A0DADEEA1005DDBA3 /* MGTwitterEngine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4DA7E48E0ACC9AEB00B17D13 /* CheepCheep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA7E49C0ACC9AEB00B17D13 /* Build configuration list for PBXNativeTarget "CheepCheep" */;
+			buildPhases = (
+				4DA7E48F0ACC9AEB00B17D13 /* Headers */,
+				4DA7E4900ACC9AEB00B17D13 /* Resources */,
+				4DA7E4970ACC9AEB00B17D13 /* Sources */,
+				4DA7E4990ACC9AEB00B17D13 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheepCheep;
+			productInstallPath = "$(HOME)/Applications";
+			productName = CheepCheep;
+			productReference = 4DA7E4A00ACC9AEB00B17D13 /* CheepCheep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4DDA93C30ABF754D00FBC9C8 /* Build configuration list for PBXProject "CheepCheep" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 0;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* CheepCheep */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DA7E48E0ACC9AEB00B17D13 /* CheepCheep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DA7E4900ACC9AEB00B17D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA7E4910ACC9AEB00B17D13 /* Credits.rtf in Resources */,
+				4DA7E4920ACC9AEB00B17D13 /* MainMenu.nib in Resources */,
+				4DA7E4930ACC9AEB00B17D13 /* MyDocument.nib in Resources */,
+				4DA7E4940ACC9AEB00B17D13 /* InfoPlist.strings in Resources */,
+				4DA7E4950ACC9AEB00B17D13 /* rb_main.rb in Resources */,
+				4DA7E4960ACC9AEB00B17D13 /* MyDocument.rb in Resources */,
+				0817C6270DADB578005DDBA3 /* AppDelegate.rb in Resources */,
+				0817C65A0DADBB82005DDBA3 /* CCAccount.rb in Resources */,
+				0817C6610DADBCEF005DDBA3 /* CCAccountWindowController.rb in Resources */,
+				0817C6BC0DADD86A005DDBA3 /* CCAccount.rb in Resources */,
+				0817C7070DADE07E005DDBA3 /* CCTwitterController.rb in Resources */,
+				0817C7090DADE157005DDBA3 /* Twitter.nib in Resources */,
+				08B474F90DE048F0008246DF /* CCTwitterTab.rb in Resources */,
+				08C214CA0DE3A8E6004D199D /* StatusList.nib in Resources */,
+				08C214EC0DE3B658004D199D /* CCTab.rb in Resources */,
+				08C2156C0DE3E011004D199D /* CCPlugin.rb in Resources */,
+				08C525180DE551D700304E92 /* CCSimpleTabView.rb in Resources */,
+				08C5255F0DE9380800304E92 /* Tab.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DA7E4970ACC9AEB00B17D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA7E4980ACC9AEB00B17D13 /* main.m in Sources */,
+				0817C6E80DADDB2F005DDBA3 /* EMKeychainProxy.m in Sources */,
+				0817C6E90DADDB2F005DDBA3 /* EMKeychainItem.m in Sources */,
+				0817C78A0DADEE94005DDBA3 /* NSString+UUID.m in Sources */,
+				0817C78C0DADEE95005DDBA3 /* MGTwitterXMLParser.m in Sources */,
+				0817C78E0DADEE97005DDBA3 /* MGTwitterUsersParser.m in Sources */,
+				0817C7900DADEE98005DDBA3 /* MGTwitterStatusesParser.m in Sources */,
+				0817C7940DADEE9A005DDBA3 /* MGTwitterMessagesParser.m in Sources */,
+				0817C7960DADEE9D005DDBA3 /* MGTwitterHTTPURLConnection.m in Sources */,
+				0817C7990DADEE9F005DDBA3 /* MGTwitterEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B4FDCFA73011CA2CEA /* MyDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B5FDCFA73011CA2CEA /* English */,
+			);
+			name = MyDocument.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B7FDCFA73011CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DA7E49D0ACC9AEB00B17D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = CheepCheep;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4DA7E49E0ACC9AEB00B17D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = CheepCheep;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4DDA93C40ABF754D00FBC9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		4DDA93C50ABF754D00FBC9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DA7E49C0ACC9AEB00B17D13 /* Build configuration list for PBXNativeTarget "CheepCheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DA7E49D0ACC9AEB00B17D13 /* Debug */,
+				4DA7E49E0ACC9AEB00B17D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDA93C30ABF754D00FBC9C8 /* Build configuration list for PBXProject "CheepCheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDA93C40ABF754D00FBC9C8 /* Debug */,
+				4DDA93C50ABF754D00FBC9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
